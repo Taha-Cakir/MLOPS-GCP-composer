@@ -7,7 +7,7 @@ steps:
 
 
 - name: 'gcr.io/cloud-builders/git'
-  args: ['clone', 'https://github.com/Taha-Cakir/MLOPS-GCP.git']
+  args: ['clone', 'https://github.com/Taha-Cakir/MLOPS-GCP-composer.git']
 
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', 'model-training-repo/bank_campaign_model_training.py', 'gs://us-central1-mlops-airflow-faa6f9bc-bucket/dags']
